@@ -4,5 +4,5 @@ def hello():
 
 
 # @app.route("/hello/<name>")
-def hello_name(name):
-    return "Hello, %s!" % name
+def hello_name(name, lastname):
+    return "Hello, %s!" % name + " " + lastname
